@@ -1,0 +1,500 @@
+body{
+    font-family: "Trebuchet MS";
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.text-white{
+    color: #fff;
+}
+h2{
+    font-size: 39px;
+    text-transform: capitalize;
+    margin-left: -40%;
+    margin-top: -5px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.grey-text-gradient{
+    background: -webkit-linear-gradient(#cecece, #7b7b7b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.grey-background-gradient{
+    background: #cecece; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#cecece, #7b7b7b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#cecece, #7b7b7b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#cecece, #7b7b7b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#cecece, #7b7b7b); /* Standard syntax */
+}
+.grey-background-gradient.active {
+    background: #cecece; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f6f6f6, #bababa); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f6f6f6, #bababa); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f6f6f6, #bababa); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f6f6f6, #bababa); /* Standard syntax */
+}
+
+/* ------------------ header start ----------------- */
+
+header{
+    background-image: url("../images/section1/background-header.jpg");
+    background-size: cover;
+}
+
+/* ------------------ nav start ----------------- */
+
+nav{
+    padding-top: 50px;
+    vertical-align: middle;
+}
+nav img{
+    margin-top: -10px;
+}
+nav ul{
+    border-radius: 6px;
+    box-shadow: 0 2px #000000;
+}
+nav li{
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 42px;
+    text-align: center;
+}
+nav a{
+    color: #000;
+}
+nav a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ------------------ nav end ----------------- */
+
+.header-slider{
+    margin-top: 68px;
+}
+header .carousel-indicators{
+    width: 70px;
+    left: 75%;
+    margin-left: -35px;
+}
+header .carousel-indicators li{
+    border: none;
+    width: 17px;
+    height: 17px;
+}
+header .carousel-indicators .active{
+    border-radius: 17px;
+    width: 17px;
+    height: 17px;
+    color: #fff;
+}
+.carousel-indicators .active{
+    margin: 1px;
+}
+header .text-content{
+    font-size: 20px;
+    margin-top: 50px;
+}
+header .button-box{
+    position: relative;
+    display: inline-block;
+    left: 25%;
+}
+.button-header{
+    font-size: 25px;
+    font-weight: 500;
+    box-shadow: 0 0 0 6px #612828, 0 0 0 7px #a15252;
+    padding: 0 65px 0 15px;
+    border-radius: 55px;
+    line-height: 55px;
+    height: 55px;
+    color: #000;
+}
+.btn{
+    border: none;
+}
+.button-gradient{
+    background: #dcc450; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#d5d4cf, #dcc450); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d5d4cf, #dcc450); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d5d4cf, #dcc450); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d5d4cf, #dcc450); /* Standard syntax */
+}
+.button-header:after{
+    content: url("../images/section1/arrow-next.png");
+    position: absolute;
+    right: 15px;
+    top: 6px;
+}
+
+/* ------------------ header end ----------------- */
+
+/* ------------------ section1 start ----------------- */
+
+#section1{
+    width: 100%;
+    border-top: 10px solid #723a3a;
+    border-bottom: 10px solid #723a3a;
+    padding: 20px 0;
+}
+#section1 .text-content{
+    font-size: 15px;
+    border-right: 1px solid #000;
+    padding: 0 10px;
+}
+#section1 .learn-more{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.box img{
+    display: inline-block;
+}
+
+/* ------------------ section1 end ----------------- */
+
+/* ------------------ section2 article_services start ----------------- */
+
+#section2{
+    background-image: url("../images/section2/bg-color.jpg");
+    padding-bottom: 43px;
+}
+#services{
+    background-color: #261111;
+    margin: 53px 0 36px;
+    padding: 20px 0;
+}
+.service-box{
+    padding: 0 35px;
+}
+#services .content-box{
+    padding-top: 10px;
+}
+#services .button-box{
+    position: relative;
+    margin-top: 23px;
+}
+#services .button-more{
+    height: 24px;
+    border-radius: 24px;
+    box-shadow: 0 0 0 3px #000, 0 0 0 6px #311d1d;
+    padding: 0 30px 0 15px;
+}
+#services .button-more:after{
+    content: url("../images/section2/4dot.png");
+    position: absolute;
+    padding-left: 5px;
+}
+
+/* ------------------ section2 article_services end ----------------- */
+
+/* ------------------ section2 article_portfolio start ----------------- */
+
+#portfolio{
+    border: 5px solid #1b1b1c;
+    margin: 0 10px 15px 10px;
+}
+.slick-list{
+    margin-bottom: -10px;
+}
+#my-slider img{
+    min-width: 100%;
+}
+input.slick-prev{
+    top: 50%;
+    margin-top: -14px;
+    margin-left: -18px;
+    z-index: 10;
+    position: absolute;
+}
+input.slick-next{
+    top: 50%;
+    margin-top: -14px;
+    right: 0;
+    margin-right: -14px;
+    z-index: 10;
+    position: absolute;
+}
+.slider-header-text{
+    color: #fff;
+    text-shadow: 1px 1px 2px #757575;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0 10px 15px;
+}
+
+/* ------------------ section2 article_portfolio end ----------------- */
+
+/* ------------------ section contactUs start ----------------- */
+
+#contactUs{
+    background-color: #944545;
+    padding: 32px 0 20px;
+    border-bottom: 1px solid #b86969;
+}
+.textual-content{
+    color: #f9e7df;
+}
+#contactUs h3{
+    margin-bottom: 30px;
+}
+#contactUs h3.browse{
+    margin-left: 60px;
+}
+#contactUs ul{
+    margin-left: 60px;
+}
+#contactUs li{
+    color: #f9e7df;
+    margin-bottom: 10px;
+}
+#contactUs a{
+    padding-left: 0;
+    margin-bottom: 20px;
+    color: #f9e7df;
+}
+#contactUs a:hover{
+    text-decoration: none;
+}
+#contactUs input{
+    background-color: #261111;
+    height: 25px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 5px;
+    line-height: 25px;
+}
+#contactUs input:focus, #contactUs textarea:focus{
+    outline: 1px inset #b86969;
+}
+#contactUs input::-webkit-input-placeholder, #contactUs textarea::-webkit-input-placeholder{
+    color: #444242;
+}
+#contactUs textarea{
+    background-color: #261111;
+    width: 100%;
+    padding-left: 5px;
+    resize: none;
+    border: none;
+}
+.text-textarea{
+    color: #444242;
+}
+#contactUs .button-box{
+    position: relative;
+    margin-top: 23px;
+}
+#contactUs .button-more{
+    height: 24px;
+    border-radius: 24px;
+    box-shadow: 0 0 0 3px #612828, 0 0 0 4px #a15252;
+    padding: 0 30px 0 15px;
+}
+#contactUs .button-more:after{
+    content: url("../images/section2/4dot.png");
+    position: absolute;
+    padding-left: 5px;
+}
+
+/* ------------------ section contactUs end----------------- */
+
+/* ------------------ footer start ----------------- */
+
+footer{
+    background-color: #652b2b;
+    color: #b86969;
+    padding: 20px 0;
+}
+footer .text{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* ------------------ section contactUs end----------------- */
+
+/* medium devices start*/
+
+@media (min-width: 992px){
+    nav li {
+        width: 16%;
+    }
+    header .button-box{
+        margin-top: 40px;
+    }
+}
+
+/* medium devices end*/
+
+/* small and extrasmall devices start*/
+
+@media (max-width: 991px){
+    h2 {
+        font-size: 30px;
+        margin-left: 4px;
+    }
+    header .text-content{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px){
+    nav ul{
+        background: #cecece; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#cecece, #7b7b7b); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#cecece, #7b7b7b); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#cecece, #7b7b7b); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#cecece, #7b7b7b); /* Standard syntax */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    nav ul{
+        height: 38px;
+    }
+    nav li{
+        margin-left: 8px;
+        line-height: 38px;
+    }
+    .button-header{
+        font-size: 20px;
+        height: 45px;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    header .button-box{
+        margin-top: 20px;
+    }
+    #section1 .text-content{
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 767px){
+    nav img{
+        display: inline-block;
+        float: left;
+        margin-bottom: 10px;
+    }
+    nav ul{
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    nav li{
+        display: block;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 18px;
+        border-radius: 10px;
+        background: #cecece; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#cecece, #7b7b7b); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#cecece, #7b7b7b); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#cecece, #7b7b7b); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#cecece, #7b7b7b); /* Standard syntax */
+    }
+    .icon-bar{
+        background-color: #7b7b7b;
+    }
+    .navbar-toggle{
+        border-color: #7b7b7b;
+    }
+    .carousel-img{
+        text-align: center;
+    }
+    .carousel-img img{
+        display: inline-block;
+    }
+    header .text-content, h2, h3{
+        text-align: center;
+    }
+    h2{
+        margin-top: 10px;
+    }
+    .content-box, #services .button-box{
+        text-align: center;
+    }
+    header .button-box{
+        margin: 40px 0 20px;
+        left: 0;
+        display: inline-block;
+    }
+    .button-header{
+        font-size: 22px;
+        line-height: 45px;
+        height: 45px;
+    }
+    header .carousel-indicators{
+        left: 50%;
+        margin-left: -35px;
+        margin-bottom: 67px;
+    }
+    #portfolio{
+        margin: 0 15px;
+    }
+    #section1 .text-content, #section1 .learn-more{
+        font-size: 12px;
+    }
+    .slick-list{
+        margin-right: 0;
+    }
+    #services{
+        margin-top: 25px;
+    }
+    #services .button-more{
+        display: inline-block;
+    }
+    #contactUs a{
+        padding-left: 15px;
+    }
+    #contactUs h3.browse{
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+    nav img{
+        display: inline-block;
+    }
+    .button-header{
+        font-size: 22px;
+        line-height: 45px;
+        height: 45px;
+    }
+    header .carousel-indicators{
+        left: 50%;
+        margin-left: -35px;
+        margin-bottom: 67px;
+    }
+    .slider-header-text{
+        font-size: 13px;
+    }
+    #contactUs ul{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 479px){
+    #img-bag {
+        min-height: 50px;
+        min-width: 50px;
+    }
+    .slider-header-text{
+        font-size: 13px;
+        padding: 4px 0 4px 8px;
+    }
+    footer .text{
+        width: 80%;
+    }
+}
+
+/* small and extrasmall devices end */
+
